@@ -197,6 +197,7 @@ input[type="number"]:focus {
   font-weight: 700;
   line-height: 120%;
   color: #252525;
+  text-transform: uppercase;
 }
 
 .talkingEasy__text span {
@@ -220,7 +221,7 @@ input[type="number"]:focus {
   padding: calc(0.7vw + 8.5px) calc(0.8vw + 9px);
   width: calc(5.5vw + 134px);
   background: #2A5987;
-  border-radius: 24px;
+  border-radius: calc(0.7vw + 9.2px);
   
   font-size: calc(0.5vw + 14px);
   font-weight: 600;
@@ -275,6 +276,10 @@ input[type="number"]:focus {
   color: #252525;
 }
 
+.aboutCourses__text span {
+  font-weight: 600;
+}
+
 /* Third section */
 .uniqueLearn {
   margin: 0 calc(5.6vw + 3.7px) calc(2vw + 24.6px);
@@ -299,7 +304,7 @@ input[type="number"]:focus {
 }
 
 .blocksFirstPart__left {
-  padding: calc(2vw - 7px) calc(1.2vw + 13px) calc(2vw + 3px) calc(1.2vw + 13px);
+  padding: calc(2.2vw + 10px) calc(1.2vw + 13px) calc(2vw + 3px) calc(1.2vw + 13px);
   display: flex;
   flex-direction: column;
   gap: calc(0.8vw + 8px);;
@@ -330,7 +335,7 @@ input[type="number"]:focus {
 }
 
 .blocksFirstPart__right {
-  padding: calc(2vw - 7px) calc(1.2vw + 13px) calc(2vw + 3px) calc(1.2vw + 13px);
+  padding: calc(2.2vw + 10px) calc(1.2vw + 13px) calc(2vw + 3px) calc(1.2vw + 13px);
   display: flex;
   gap: calc(0.8vw + 8px);
   background: #FEF6ED;
@@ -351,6 +356,10 @@ input[type="number"]:focus {
 
 .blocksFirstPart__right_img img {
   width: calc(16.2vw - 9.6px);
+}
+
+#imgFreeWeek__small {
+  display: none;
 }
 
 /* Fourth section */
@@ -381,7 +390,7 @@ input[type="number"]:focus {
 }
 
 .freeWeek__text p {
-  font-size: calc(0.7vw + 9.2px);
+  font-size: calc(0.6vw + 11.8px);
   font-weight: 500;
   line-height: 150%;
 }
@@ -413,6 +422,7 @@ input[type="number"]:focus {
 }
 
 .submit input {
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   font-size: calc(0.5vw + 10px);
@@ -526,6 +536,11 @@ input[type="number"]:focus {
 
 .whatIntensives__right img {
   width: 100%;
+  height: 100%;
+}
+
+#img__lang__small {
+  display: none;
 }
 
 /* Sixth section */
@@ -561,7 +576,7 @@ input[type="number"]:focus {
 
 .rates__card_h4 {
   padding: calc(0.9vw + 15.7px) 0;
-  font-size: calc(1vw + 9.8px);
+  font-size: calc(0.77vw + 17.2px);
   text-align: center;
   color: #2A5987;
   background-color: #DDEDFC;
@@ -592,7 +607,7 @@ input[type="number"]:focus {
 }
 
 .rates__card_text p {
-  font-size: calc(0.7vw + 9.2px);
+  font-size: calc(0.6vw + 11.8px);
   color: #2A5987;
   line-height: 150%;
   font-weight: 500;
@@ -807,6 +822,7 @@ input[type="number"]:focus {
 }
 
 .submit2 input {
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   font-size: calc(0.5vw + 10px);
@@ -859,14 +875,14 @@ input[type="number"]:focus {
   .blocksFirstPart__right {
     flex-direction: column-reverse;
   }
-  .whatIntensives__left_img {
-    display: none;
-  }
-  .whatIntensives {
-    flex-wrap: wrap;
-  }
   .whatIntensives__right {
     width: calc(88.8vw - 8.8px);
+  } 
+  #imgFreeWeek__small {
+    display: flex;
+  }
+  #imgFreeWeek__big {
+    display: none;
   }
 }
 
@@ -916,6 +932,12 @@ input[type="number"]:focus {
   .smallWidth__slide {
     display: flex;
   }
+  .whatIntensives__left_img {
+    display: none;
+  }
+  .whatIntensives {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 600px) {
@@ -934,5 +956,11 @@ input[type="number"]:focus {
   }
   .footer__link {
     flex-direction: column;
+  }
+  #img__lang__big {
+    display: none;
+  }
+  #img__lang__small {
+    display: block;
   }
 }
