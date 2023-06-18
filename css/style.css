@@ -535,7 +535,7 @@ input[type="number"]:focus {
 }
 
 .rates__card {
-  padding-bottom: calc(7vw - 1.5px);
+  padding-bottom: calc(14vw - 1.5px);
   width: 33%;
   border-radius: calc(1.5vw + 14.5px);
   background-color: #fff;
