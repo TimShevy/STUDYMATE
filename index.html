@@ -62,7 +62,7 @@
   <section class="talkingEasy">
     <div class="talkingEasy__text">
       <h1>Говорить на любом языке — легко!</h1>
-      <span>Изучайте иностранные языки в любое время, где бы ни находились</span>
+      <span>Изучайте иностранные языки в любое время, где бы не находились</span>
       <a class="startToday" href="">Начни сегодня</a>
     </div>
     <div class="talkingEasy__img">
@@ -328,7 +328,7 @@
   <!-- Eighth section -->
   <section class="mySlider">
     <h1>Про нас говорят <span>приятности</span></h1>
-      <div class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide bigWidth__slide" aria-label="Splide Basic HTML Example">
         <div class="splide__arrows">
           <button class="splide__arrow splide__arrow--prev">
             <img src="./img/right.svg" alt="">
@@ -340,15 +340,38 @@
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide big__slide">
-              <img class="bigWidth__slide" src="./img/div.png" alt="">
-              <img class="smallWidth__slide" src="./img/feedback12.png" alt="">
-              <img class="smallWidth__slide" src="./img/feedback1 (1).png" alt="">
+              <img src="./img/div.png" alt="">
             </li>
             <li class="splide__slide big__slide">
-              <img class="bigWidth__slide" src="./img/feedback part2.png" alt="">
-              <img class="smallWidth__slide" src="./img/feedback1.png" alt="">
-              <img class="smallWidth__slide" src="./img/feedback12 (1).png" alt="">
-            </li> 
+              <img src="./img/feedback part2.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="splide smallWidth__slide" aria-label="Splide Basic HTML Example">
+        <div class="splide__arrows">
+          <button class="splide__arrow splide__arrow--prev">
+            <img src="./img/right.svg" alt="">
+          </button>
+          <button class="splide__arrow splide__arrow--next">
+            <img src="./img/left.svg" alt="">
+          </button>
+        </div>
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide big__slide">
+              <img src="./img/feedback1.png" alt="">
+            </li>
+            <li class="splide__slide big__slide">
+              <img src="./img/feedback12.png" alt="">
+            </li>
+            <li class="splide__slide big__slide">
+              <img src="./img/feedback1 (1).png" alt="">
+            </li>
+            <li class="splide__slide big__slide">
+              <img src="./img/feedback12 (1).png" alt="">
+            </li>
           </ul>
         </div>
       </div>
@@ -398,7 +421,9 @@
         </ul>
       </div>
 
-      <div class="submit2"><input type="submit" value="Отправить заявку"></div>
+      <div class="submit2">
+        <input class="btnLogoNext" type="submit" value="Отправить заявку">
+      </div>
     
     </form>
     <div class="freeWeek2__text_flex3">
@@ -450,6 +475,22 @@
       </div>
     </div>
   </section>
+
+  <!-- ===Mini__Pop-Up========
+  =============================== -->
+
+<!-- <div class="mini__wrapper__two">
+  <div class="mini__popUp__one two">
+    <div class="cross__one">
+      <img src="./img/Cross.png" alt="">
+    </div>
+    <h2>Спасибо!</h2>
+    <p>Заявка успешно отправлена.</p>
+    <div class="minPopImg">
+      <img src="./img/Vector 34.png" alt="">
+    </div>
+  </div>
+</div> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
