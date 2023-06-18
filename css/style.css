@@ -871,7 +871,7 @@ input[type="number"]:focus {
 .active__min__popUp__one {
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   
   position: fixed;
   top: 0;
@@ -885,9 +885,9 @@ input[type="number"]:focus {
 }
 
 .mini__popUp__one {
-  padding: 40px 50px 50px;
-  width: 410px;
-  height: 510px;
+  padding: 30px 30px;
+  width: 300px;
+  height: 400px;
 
   position: relative;
   
@@ -907,12 +907,8 @@ input[type="number"]:focus {
   z-index: 0;
 }
 
-.mini__popUp__one {
-  padding: 80px 115px;
-}
-
 .mini__popUp__one p {
-  margin: 30px 0 50px; 
+  margin: 15px 0 15px; 
   font-size: 18px;
   color: #2A5987;
 }
@@ -944,7 +940,7 @@ input[type="number"]:focus {
 .active__min__popUp__two {
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   
   position: fixed;
   top: 0;
@@ -958,9 +954,9 @@ input[type="number"]:focus {
 }
 
 .mini__popUp__two {
-  padding: 40px 50px 50px;
-  width: 410px;
-  height: 510px;
+  padding: 30px 30px;
+  width: 300px;
+  height: 400px;
 
   position: relative;
   
@@ -980,12 +976,8 @@ input[type="number"]:focus {
   z-index: 0;
 }
 
-.mini__popUp__two {
-  padding: 80px 115px;
-}
-
 .mini__popUp__two p {
-  margin: 30px 0 50px; 
+  margin: 15px 0 15px; 
   font-size: 18px;
   color: #fff;
 }
