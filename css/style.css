@@ -461,9 +461,12 @@ input[type="number"]:focus {
 }
 
 .freeWeek__form .submit {
+  padding: 16px 24px;
   margin-top: calc(0.2vw + 3px);
+  font-size: calc(0.5vw + 10px);
   font-weight: 600;
   line-height: 150%;
+  width: calc(17.7vw + 210px);
   background: #FCE9D4;
   cursor: pointer;
 }
@@ -778,10 +781,13 @@ input[type="number"]:focus {
 
 .freeWeek2__form .submit2 {
   margin-top: calc(0.2vw + 3px);
+  padding: 16px 24px;
   font-weight: 600;
-  background: #2A5987;
+  font-size: calc(0.5vw + 10px);
   line-height: 150%;
   color: #FFFFFF;
+  width: calc(17.7vw + 210px);
+  background: #2A5987;
   cursor: pointer;
 }
 
