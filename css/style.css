@@ -468,6 +468,8 @@ input[type="number"]:focus {
   line-height: 150%;
   width: calc(17.7vw + 210px);
   background: #FCE9D4;
+  border: 0;
+  outline: none;	
   cursor: pointer;
 }
 
@@ -788,6 +790,8 @@ input[type="number"]:focus {
   color: #FFFFFF;
   width: calc(17.7vw + 210px);
   background: #2A5987;
+  border: 0;
+  outline: none;
   cursor: pointer;
 }
 
