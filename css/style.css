@@ -568,15 +568,15 @@ input[type="number"]:focus {
 }
 
 .rates__card {
-  padding-bottom: calc(13vw - 1.5px);
+  padding-bottom: calc(2vw + 53px);
   width: 33%;
   border-radius: calc(1.5vw + 14.5px);
   background-color: #fff;
 }
 
 .rates__card_h4 {
-  padding: calc(0.9vw + 15.7px) 0;
-  font-size: calc(0.77vw + 17.2px);
+  padding: calc(0.6vw + 15.7px) 0;
+  font-size: calc(0.4vw + 18px);
   text-align: center;
   color: #2A5987;
   background-color: #DDEDFC;
@@ -596,7 +596,7 @@ input[type="number"]:focus {
 }
 
 .rates__card_text {
-  padding: calc(1vw + 17px) calc(0.4vw + 22px) 0 calc(1.2vw + 15.3px);
+  padding: calc(0.8vw + 14px) calc(0.4vw + 22px) 0 calc(1.2vw + 15.3px);
   display: flex;
   align-items: center;
   gap: calc(0.8vw + 9px);
@@ -607,7 +607,7 @@ input[type="number"]:focus {
 }
 
 .rates__card_text p {
-  font-size: calc(0.6vw + 11.8px);
+  font-size: calc(0.5vw + 8px);
   color: #2A5987;
   line-height: 150%;
   font-weight: 500;
@@ -746,9 +746,12 @@ input[type="number"]:focus {
   cursor: pointer;
 }
 
+.big__slide {
+  padding: 10px 10px;
+}
+
 .smallWidth__slide {
   display: none;
-  padding: 10px 10px;
 }
 
 /* Ninth section  */
@@ -859,6 +862,85 @@ input[type="number"]:focus {
   font-size: calc(0.5vw + 14px);
 }
 
+/* ======Mini PopUp====================
+================================== */
+.mini__wrapper__two {
+  display: none;
+}
+
+.active__min__popUp__thanks {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.mini__popUp__one {
+  padding: 40px 50px 50px;
+  width: 410px;
+  height: 510px;
+
+  position: relative;
+  
+  text-align: center;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.mini__popUp__one h2 {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 140%;
+  color: #202020;
+  position: relative;
+  z-index: 0;
+}
+
+.mini__wrapper__two .mini__popUp__one h2 {
+  font-size: 36px;
+}
+
+.mini__popUp__one.two {
+  padding: 80px 115px;
+}
+
+.minPopImg {
+  margin-top: 50px;
+}
+
+.mini__popUp__one p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.cross__one {
+  cursor: pointer;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.cross__one img {
+  width: 100%;
+}
+
 /* @media */
 @media (max-width: 1024px) {
   .blocksFirstPart__left_top {
@@ -898,6 +980,9 @@ input[type="number"]:focus {
   }
   .freeWeek {
     flex-wrap: wrap;
+  }
+  .freeWeek__form {
+    flex-grow: 1;
   }
   .rates__cards {
     flex-direction: column;
