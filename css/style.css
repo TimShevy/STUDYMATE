@@ -408,13 +408,28 @@ input[type="number"]:focus {
 .select__head {
   width: calc(17.7vw + 210px);
   border-radius: calc(0.3vw + 11px);
-  padding: 16px calc(0.9vw + 6.7px);
+  padding: 16px 24px;
   font-size: calc(0.5vw + 10px);
   line-height: 150%;
   color: #2A5987;
   background-color: #fff;
   cursor: pointer;
   box-sizing: border-box;
+}
+.select__head::after {
+  width: 10px;
+  height: 6px;
+  background: #fff url('../img/Bgr__arrow_to_select.svg') no-repeat center / cover;
+  position: absolute;
+  right: calc(11vw + 60px);
+  bottom: 50%;
+  transform: translateY(50%);
+  content: "";
+  display: block;
+  transition: .2s ease-in;
+}
+.select__head.open::after {
+  transform: translateY(50%) rotate(180deg);
 }
 .select__list {
   display: none;
@@ -448,6 +463,7 @@ input[type="number"]:focus {
 .freeWeek__form .submit {
   margin-top: calc(0.2vw + 3px);
   font-weight: 600;
+  line-height: 150%;
   background: #FCE9D4;
   cursor: pointer;
 }
@@ -695,6 +711,7 @@ input[type="number"]:focus {
 
 .smallWidth__slide {
   display: none;
+  padding: 10px 10px;
 }
 
 /* Eighth section  */
@@ -747,8 +764,7 @@ input[type="number"]:focus {
   gap: calc(0.5vw + 6px);
 }
 
-.freeWeek2__form input,
-.freeWeek2__form select {
+.freeWeek2__form input {
   padding: 16px 24px;
   font-weight: 500;
   font-size: calc(0.5vw + 10px);
@@ -760,23 +776,11 @@ input[type="number"]:focus {
   outline: none;
 }
 
-.select option {
-  background: #fff;
-}
-
-.freeWeek2__form select {
-  cursor: pointer;
-  appearance: none;
-}
-
-.freeWeek2__form select option {
-  background-color: #fff;
-}
-
 .freeWeek2__form .submit2 {
   margin-top: calc(0.2vw + 3px);
   font-weight: 600;
   background: #2A5987;
+  line-height: 150%;
   color: #FFFFFF;
   cursor: pointer;
 }
@@ -843,7 +847,6 @@ input[type="number"]:focus {
   }
   .freeWeek {
     flex-wrap: wrap;
-    justify-content: center;
   }
   .rates__cards {
     flex-direction: column;
@@ -862,7 +865,6 @@ input[type="number"]:focus {
   }
   .freeWeek2 {
     flex-wrap: wrap;
-    justify-content: center;
   }
   .freeWeek2__text_flex2 {
     display: none;
