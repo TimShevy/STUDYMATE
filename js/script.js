@@ -26,6 +26,38 @@ jQuery(($) => {
   });
 });
 
+//===Mini PopUp========================
+//===Переменные========================
+// let min_popUp = document.querySelector('.mini__wrapper__one')
+let btnLogoNext = document.querySelector('.btnLogoNext')
+// let btnLogo = document.querySelectorAll('.cross__one__btn')
+let min_popUp_two = document.querySelector('.mini__wrapper__two')
+let close_popUp = document.querySelectorAll('.cross__one')
+
+//=========Лисенеры Mini PopUp=========
+// btnLogo.forEach(btn => {
+//     btn.addEventListener('click', showMinPopUp)
+// })
+btnLogoNext.addEventListener('click', showMinPopUp__two)
+
+// function showMinPopUp() {
+//     min_popUp.classList.add('active__min__popUp')
+// }
+function showMinPopUp__two() {
+    // min_popUp.classList.remove('active__min__popUp')
+    min_popUp_two.classList.add('active__min__popUp__thanks')
+}
+
+close_popUp.forEach(btn => {
+  btn.addEventListener('click', closeAllPopUp)
+})
+function closeAllPopUp() {
+  // min_popUp.classList.remove('active__min__popUp')
+  min_popUp_two.classList.remove('active__min__popUp__thanks')
+}
+
+
+
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.menu');
 
@@ -50,7 +82,17 @@ document.addEventListener("click", (e) => {
 });
 
 
-var splide = new Splide( '.splide', {
+var splide = new Splide( '.splide.bigWidth__slide', {
+  type   : 'loop',
+  perPage: 1,
+  perMove: 1,
+  snap: boolean = true,
+  arrows: true,
+  speed: 3000,
+} );
+splide.mount();
+
+var splide = new Splide( '.splide.smallWidth__slide', {
   type   : 'loop',
   perPage: 1,
   perMove: 1,
