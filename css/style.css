@@ -196,6 +196,7 @@ input[type="number"]:focus {
   font-size: calc(2.3vw + 19.7px);
   font-weight: 700;
   line-height: 120%;
+  color: #252525;
 }
 
 .talkingEasy__text span {
@@ -203,6 +204,7 @@ input[type="number"]:focus {
   font-size: calc(0.4vw + 12.6px);
   font-weight: 500;
   line-height: 150%;
+  color: #252525;
 }
 
 .talkingEasy__img {
@@ -262,6 +264,7 @@ input[type="number"]:focus {
   font-size: calc(2vw + 8.6px);
   font-weight: 700;
   line-height: 120%;
+  color: #252525;
 }
 
 .aboutCourses__text p {
@@ -269,6 +272,7 @@ input[type="number"]:focus {
   font-size: calc(0.7vw + 9.2px);
   font-weight: 500;
   line-height: 150%;
+  color: #252525;
 }
 
 /* Third section */
@@ -281,6 +285,7 @@ input[type="number"]:focus {
   font-size: calc(2.5vw + 14.7px);
   font-weight: 600;
   line-height: 120%;
+  color: #252525;
 }
 
 .uniqueLearn span {
@@ -314,12 +319,14 @@ input[type="number"]:focus {
 .blocksFirstPart h4 {
   font-size: calc(1vw + 9.8px);
   align-self: end;
+  color: #252525;
 }
 
 .blocksFirstPart p {
   font-size: calc(0.7vw + 9.2px);
   line-height: 150%;
   max-width: 568px;
+  color: #252525;
 }
 
 .blocksFirstPart__right {
@@ -397,6 +404,28 @@ input[type="number"]:focus {
   outline: none;
 }
 
+.freeWeek__form .submit {
+  margin-top: calc(0.2vw + 3px);
+  min-height: 50px;
+  width: calc(17.7vw + 210px);
+  border: 0;
+  outline: none;
+}
+
+.submit input {
+  margin: 0;
+  padding: 0;
+  font-size: calc(0.5vw + 10px);
+  color: #2A5987;
+  font-weight: 600;
+  line-height: 150%;
+  background: #FCE9D4;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
 /* select_option_style */
 .select {
   position: relative;
@@ -458,28 +487,6 @@ input[type="number"]:focus {
 }
 .select__list .select__item:hover {
   background-color: #DDEDFC;
-}
-
-.freeWeek__form .submit {
-  margin-top: calc(0.2vw + 3px);
-  min-height: 50px;
-  width: calc(17.7vw + 210px);
-  border: 0;
-  outline: none;
-}
-
-.submit input {
-  margin: 0;
-  padding: 0;
-  font-size: calc(0.5vw + 10px);
-  color: #2A5987;
-  font-weight: 600;
-  line-height: 150%;
-  background: #FCE9D4;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  cursor: pointer;
 }
 
 /* Fifth section */
@@ -546,7 +553,7 @@ input[type="number"]:focus {
 }
 
 .rates__card {
-  padding-bottom: calc(14vw - 1.5px);
+  padding-bottom: calc(13vw - 1.5px);
   width: 33%;
   border-radius: calc(1.5vw + 14.5px);
   background-color: #fff;
@@ -638,7 +645,7 @@ input[type="number"]:focus {
   font-size: calc(2.5vw + 14.7px);
   font-weight: 600;
   line-height: 120%;
-  color: #000;
+  color: #252525;
 }
 
 .ourOffers__flex span {
@@ -669,6 +676,7 @@ input[type="number"]:focus {
   font-weight: 500;
   font-size: calc(0.7vw + 9.2px);
   line-height: 150%;
+  color: #252525;
 }
 
 .ourOffers__card_img {
@@ -679,7 +687,7 @@ input[type="number"]:focus {
   width: 100%;
 }
 
-/* Ninth section */
+/* Eighth section */
 .mySlider {
   margin: 0 calc(5.6vw + 3.7px) calc(7vw + 6px);
 }
@@ -689,7 +697,7 @@ input[type="number"]:focus {
   font-size: calc(2.5vw + 14.7px);
   font-weight: 600;
   line-height: 120%;
-  color: #000;
+  color: #252525;
 }
 
 .mySlider span {
@@ -728,7 +736,7 @@ input[type="number"]:focus {
   padding: 10px 10px;
 }
 
-/* Eighth section  */
+/* Ninth section  */
 .freeWeek2 {
   margin: 0 calc(5.6vw + 3.7px) calc(7vw + 6px);
   padding: calc(1.6vw + 14.2px) calc(8vw - 8.8px) calc(1.6vw + 14.2px) calc(1.6vw + 14.2px);
@@ -928,20 +936,3 @@ input[type="number"]:focus {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
