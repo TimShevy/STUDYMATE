@@ -364,7 +364,7 @@ input[type="number"]:focus {
 
 .freeWeek__text h2 {
   margin-bottom: calc(0.9vw + 4.7px);
-  font-size: calc(2vw + 8.6px);
+  font-size: calc(1.8vw + 13.5px);
   font-weight: 600;
   line-height: 120%;
 }
@@ -749,7 +749,7 @@ input[type="number"]:focus {
 
 .freeWeek2__text_flex1 h2 {
   margin-bottom: calc(0.9vw + 4.7px);
-  font-size: calc(2vw + 8.6px);
+  font-size: calc(1.8vw + 13.5px);
   font-weight: 600;
   line-height: 120%;
 }
