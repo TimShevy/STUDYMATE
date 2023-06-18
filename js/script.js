@@ -28,36 +28,35 @@ jQuery(($) => {
 
 //===Mini PopUp========================
 //===Переменные========================
-// let min_popUp = document.querySelector('.mini__wrapper__one')
-let btnLogoNext = document.querySelector('.btnLogoNext')
-// let btnLogo = document.querySelectorAll('.cross__one__btn')
+let clickPopUp__one = document.querySelector('.clickPopUp__one')
+let clickPopUp__two = document.querySelector('.clickPopUp__two')
+let min_popUp_one = document.querySelector('.mini__wrapper__one')
 let min_popUp_two = document.querySelector('.mini__wrapper__two')
-let close_popUp = document.querySelectorAll('.cross__one')
+let close_popUp = document.querySelectorAll('.cross')
 
 //=========Лисенеры Mini PopUp=========
-// btnLogo.forEach(btn => {
-//     btn.addEventListener('click', showMinPopUp)
-// })
-btnLogoNext.addEventListener('click', showMinPopUp__two)
+clickPopUp__one.addEventListener('click', showMinPopUp__one)
+clickPopUp__two.addEventListener('click', showMinPopUp__two)
 
-// function showMinPopUp() {
-//     min_popUp.classList.add('active__min__popUp')
-// }
+function showMinPopUp__one() {
+  // min_popUp_two.classList.remove('active__min__popUp__two')
+  min_popUp_one.classList.add('active__min__popUp__one')
+}
 function showMinPopUp__two() {
-    // min_popUp.classList.remove('active__min__popUp')
-    min_popUp_two.classList.add('active__min__popUp__thanks')
+    // min_popUp_one.classList.remove('active__min__popUp__one')
+    min_popUp_two.classList.add('active__min__popUp__two')
 }
 
 close_popUp.forEach(btn => {
   btn.addEventListener('click', closeAllPopUp)
 })
 function closeAllPopUp() {
-  // min_popUp.classList.remove('active__min__popUp')
-  min_popUp_two.classList.remove('active__min__popUp__thanks')
+  min_popUp_one.classList.remove('active__min__popUp__one')
+  min_popUp_two.classList.remove('active__min__popUp__two')
 }
 
 
-
+// Burger
 let menuBtn = document.querySelector('.menu-btn');
 let menu = document.querySelector('.menu');
 
@@ -81,7 +80,7 @@ document.addEventListener("click", (e) => {
   }
 });
 
-
+// Slider
 var splide = new Splide( '.splide.bigWidth__slide', {
   type   : 'loop',
   perPage: 1,
