@@ -79,11 +79,11 @@ input[type="number"]:focus {
 	top: 0;
 	right: 0;
 	width: 65%;
-	height: 50%;
+	height: 55%;
   border-radius: 20px;
   background: rgba(42, 89, 135);
-	transform: translateY(-100%);
-	transition: transform 0.5s; 
+	transform: translateY(-200%);
+	transition: transform 0.8s; 
 }
 
 .menu.active {
