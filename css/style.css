@@ -1095,7 +1095,7 @@ input[type="number"]:focus {
     display: flex;
   }
   .footer {
-    gap: 60px;
+    gap: 80px;
     flex-wrap: wrap;
   }
   .footer__nav {
