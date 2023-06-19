@@ -132,6 +132,7 @@ input[type="number"]:focus {
   border: 0;
   border-radius: 10px;
   color: #2A5987;
+  cursor: pointer;
 }
 
 .menu__icons {
@@ -195,6 +196,7 @@ input[type="number"]:focus {
   border: 0;
   border-radius: 20px;
   color: #2A5987;
+  cursor: pointer;
 }
 
 /* First section */
