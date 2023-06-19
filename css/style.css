@@ -1030,15 +1030,6 @@ input[type="number"]:focus {
   }
 }
 
-@media (max-width: 930px) {
-  .header__link {
-    display: none;
-  }
-  .headerNavBar {
-    display: flex;
-  }
-}
-
 @media (max-width: 800px) {
   .talkingEasy {
     flex-wrap: wrap-reverse;
@@ -1097,12 +1088,12 @@ input[type="number"]:focus {
 }
 
 @media (max-width: 600px) {
-  /* .header__link {
+  .header__link {
     display: none;
   }
   .headerNavBar {
     display: flex;
-  } */
+  }
   .footer {
     gap: 60px;
     flex-wrap: wrap;
