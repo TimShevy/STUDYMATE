@@ -118,7 +118,20 @@ input[type="number"]:focus {
 }
 
 .menu .lastChild {
+  margin-top: 11px;
+}
+
+.lastChild__burger {
   margin-top: 24px;
+  padding: 8px 22px;
+
+  font-size: calc(0.6vw + 11.7px);
+  font-weight: 500;
+  line-height: 120%;
+  background-color: #FCE9D4;
+  border: 0;
+  border-radius: 10px;
+  color: #2A5987;
 }
 
 .menu__icons {
@@ -160,11 +173,13 @@ input[type="number"]:focus {
 .header__link {
   display: flex;
   gap: 11px 24px;
+  align-items: center;
 }
 
 .header__link a {
   font-size: calc(0.6vw + 11.7px);
   font-weight: 500;
+  line-height: 120%;
 
   text-decoration: none;
   color: #ffffff;
@@ -173,7 +188,11 @@ input[type="number"]:focus {
 .header__link .lastChild {
   padding: 16px 44px;
 
+  font-size: calc(0.6vw + 11.7px);
+  font-weight: 500;
+  line-height: 120%;
   background-color: #FCE9D4;
+  border: 0;
   border-radius: 20px;
   color: #2A5987;
 }
